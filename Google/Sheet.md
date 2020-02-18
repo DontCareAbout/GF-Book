@@ -53,8 +53,8 @@ public final class Foo extends SheetEntry {
 ```Java
 SheetHappen.<Foo>get(sheetId, N, new Callback<Foo>() {
 	@Override
-	public void onSuccess(Sheet<Quote> gs) {
-		ArrayList<Quote> data = gs.getEntry();
+	public void onSuccess(Sheet<Foo> gs) {
+		ArrayList<Foo> data = gs.getEntry();
 	}
 
 	@Override
